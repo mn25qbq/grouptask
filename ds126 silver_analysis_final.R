@@ -128,6 +128,10 @@ cat("p-value :", signif(cor_test$p.value, 3), "\n\n")
 cat("Linear model: Close = a + b * Volume\n")
 cat("Intercept (a):", round(coef(model)[1], 4), "\n")
 cat("Slope (b)    :", signif(coef(model)[2], 3), "\n")
-cat("============================================\n")
+cat("============================================\n") 
+
+
+
+
 
 
